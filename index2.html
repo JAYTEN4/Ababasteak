@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+    <script src="index.js"></script>
+</head>
+<style>
+      body {
+     background-color:#BC0A0F;
+    }
+    @media only screen and (max-width: 800px) {
+}
+</style>
+    <center>
+        <img src="img/LOGO.jpeg" alt="">
+      </center>
+    <nav>
+        <ul>
+            <li><a href="index.html"><b>HOME</b></a></li>
+            <li><a href="menu.html"><b>MENU</b></a></li>
+            <li><a href="promo.html"><b>PROMO</b></a></li>
+            <li><a href="aboutus.html"><b>ABOUT US</b></a></li>
+            <li><a href="reservation.html"><b>RSVP</b></a></li>  
+        </ul>
+<body>
+        
+    <form name="myform" method="post" action="valid.html" onsubmit="return validateform()" >  
+        <fieldset>
+            <legend>Reservation</legend>
+            <p>
+                <label>Name:</label>
+                <input type="text" name="name" placeholder="JOHN" />
+                <br />
+            </p>
+            <p>
+                <label>Phone Number:</label>
+                <input type="text" name="phonenumber" placeholder="08XXXXXXX" /> 
+                <br />
+            </p>
+            <p>
+                <label>Date :</label>
+                <input type="date" name="date" />
+                <br />
+            </p>
+            <p>
+                <label>Time :</label>
+                <input type="time" name="time" />
+                <br />
+            </p>
+            <p>
+                <label>Coupon Code:</label>
+                <input type="text" name="cc" placeholder="1B1B121" />
+                <br />
+            </p>
+            <p>
+                <input type="submit" value="register" />  
+                <br />
+            </p> 
+        </fieldset>
+        </form>
+</body>
+</html>
